@@ -13,6 +13,6 @@ public class HomeController {
 	}
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello";
+		return "Hello Update Success";
 	}
 }
